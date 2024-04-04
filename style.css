@@ -1,0 +1,50 @@
+* {
+    font-size: 'poppins', 'san-sarif';
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    height: 95px;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 5px 0px 0px 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 40px 0px 50px 300px;
+}
+
+.anchor {
+    margin-left: 40px;
+    list-style: none;
+    font-size: 1.1rem;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.anchor:hover {
+    color: red;
+    border-bottom: 5px solid red;
+}
+
+.img-main {
+    height: 70px;
+}
+
+.right-text-hyper {
+    margin-bottom: 30px;
+}
+
+.hero {
+    width: 100%;
+}
+
+.about {
+    margin-top: 30px;
+    font-size: 1rem;
+}
