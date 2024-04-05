@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     height: 95px;
-    width: 100%;
+    width: 1675px;
     background-color: #f6f6f6;
     padding: 5px 0px 0px 10px;
 }
@@ -41,10 +41,93 @@
 }
 
 .hero {
-    width: 100%;
+    width: 1680px;
+    margin-left: -50px;
 }
 
 .about {
     margin-top: 30px;
     font-size: 1rem;
+}
+
+.main {
+    margin: 0px 100px 0px 100px;
+    color: rgb(166, 166, 166);
+}
+
+.massey img {
+    margin: 50px 0px 100px 1000px;
+   width: 500px;
+}
+
+.mf {
+    width: 500px;
+}
+
+.para1 {
+    font-size: 2rem;
+    margin: 0px 100px 50px 100px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: ceenter;
+    height: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin-left: 50px;
+    color: white;
+    font-size: 1rem;
+    background-color: red;
+    border: none;
+    padding-top: 15px;
+    border-radius: 7px;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.foot-panel-a {
+    height: 400px;
+    background-color: #bdbdbd;
+    border-bottom: 5px solid black;
+}
+
+.back {
+    width: 100%;
+    height: 100px;
+    font-size: 4rem;
+    background-color: #bdbdbd;
+    border: none;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.back:hover {
+    background-color: #7a7a7a;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    height: 100px;
+    background-color: #bdbdbd; 
+}
+
+ footer {
+    height: 500px;
 }
